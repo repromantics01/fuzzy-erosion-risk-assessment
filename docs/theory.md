@@ -2,6 +2,22 @@
 
 The **Revised Universal Soil Loss Equation** is a famous soil loss model used to estimate soil degradation and loss. This model allows an accurate prediction of soil erosion across diverse geographic and climatic settings. The model uses 5 major factors to calculate the soil loss equation: **rainfall-runoff erosivity (R-Factor), soil erodibility (K-Factor), slope length and steepness (LS-factor), vegetative cover (C-Factor), and the erosion control practice (P-Factor)**
 
+RUSLE is expressed mathematically as follows:
+
+$$A = R \times K \times LS \times C \times P$$
+
+where:
+- **A** is the mean annual soil loss [ton/acre]
+- **R** is the rainfall and runoff erosivity factor [100 ft·tonf·in/(acre·h)]
+- **K** is the soil erodibility factor [ton·acre·h/(100 acre·ft·tonf·in)]
+- **LS** is the combined dimensionless slope length and slope steepness factor
+- **C** is the dimensionless cover-management factor
+- **P** is the dimensionless support-practice factor
+
+(Tran et al., 2002)
+
+This multiplicative structure implies that soil loss is directly proportional to each factor—if any single factor increases, the total erosion increases proportionally. 
+
 ### Factors
 #### Rainfall-Runoff Erosivity (R-Factor)
 R factor in RUSLE refers to the impact of rainfall on soil detachment and transport, specifically the combination of rainfall intensity and kinetic energy. Intense storms with high-energy raindrops have a greater potential to dislodge small stones and soil particles, while gentle rainfall has minimal erosive power (McCool & Williams 2008). Raindrop impact not only breaks soil aggregates but also makes surface particles more vulnerable to being carried away by runoff  (Wojtkowski, 2008). 

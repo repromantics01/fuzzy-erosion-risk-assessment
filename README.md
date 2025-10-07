@@ -15,6 +15,7 @@ This report is organized to provide both comprehensive coverage and focused acce
 **For Theoretical Background:**
 - [Theory Guide](docs/theory.md) - RUSLE concepts and fuzzy logic integration
 - [Design Rationale](docs/design-rationale.md) - Universe of discourse explanations and design decisions
+- [Limitations](docs/limitations.md) - Limitations and scope of the system
 
 **For Implementation Details:**
 - [Main Implementation](imp/main.ipynb) - Complete fuzzy system code and inference engine
@@ -85,7 +86,9 @@ fuzzy-erosion-risk-assessment/
 └── docs/
     ├── theory.md               # Theoretical background
     ├── design-rationale.md     # Design decisions
+    ├── limitations.md          # Limitations evaluation
     └── rules.txt               # Complete rule set
+    
 ```
 ## Results
 
